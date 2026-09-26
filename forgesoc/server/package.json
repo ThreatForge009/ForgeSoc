@@ -1,0 +1,28 @@
+{
+  "name": "forgesoc-server",
+  "version": "1.0.0",
+  "description": "ForgeSOC backend - Security Operations Center API",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node services/synthDataGenerator.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "geoip-lite": "^1.4.10",
+    "js-yaml": "^5.4.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^10.0.10",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
